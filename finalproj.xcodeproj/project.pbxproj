@@ -16,6 +16,7 @@
 		1D0222B421BB986A0001A139 /* finalprojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222B321BB986A0001A139 /* finalprojTests.swift */; };
 		1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* Music.swift */; };
 		1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* Journal.swift */; };
+		F6E1DF5221BCE8B2006998D5 /* tracker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E1DF5021BCE8B2006998D5 /* tracker.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		1D0222B521BB986A0001A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0222BE21BB9C6E0001A139 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		1D0222C021BB9C9F0001A139 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		F6E1DF5121BCE8B2006998D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finalproj/Base.lproj/tracker.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		1D02229021BB98670001A139 = {
 			isa = PBXGroup;
 			children = (
+				F6E1DF5021BCE8B2006998D5 /* tracker.storyboard */,
 				1D02229B21BB98670001A139 /* finalproj */,
 				1D0222B221BB986A0001A139 /* finalprojTests */,
 				1D02229A21BB98670001A139 /* Products */,
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */,
+				F6E1DF5221BCE8B2006998D5 /* tracker.storyboard in Resources */,
 				1D0222A621BB98690001A139 /* Assets.xcassets in Resources */,
 				1D0222A421BB98670001A139 /* Main.storyboard in Resources */,
 			);
@@ -247,6 +251,14 @@
 				1D0222A821BB98690001A139 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E1DF5021BCE8B2006998D5 /* tracker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E1DF5121BCE8B2006998D5 /* Base */,
+			);
+			name = tracker.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,13 +385,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9RQGQ4929;
+				DEVELOPMENT_TEAM = 9M77CWP83M;
 				INFOPLIST_FILE = finalproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasminechen.finalproj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antowy.finalproj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,13 +404,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9RQGQ4929;
+				DEVELOPMENT_TEAM = 9M77CWP83M;
 				INFOPLIST_FILE = finalproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasminechen.finalproj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antowy.finalproj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,8 +424,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9RQGQ4929;
+				DEVELOPMENT_TEAM = 9M77CWP83M;
 				INFOPLIST_FILE = finalprojTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,8 +446,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9RQGQ4929;
+				DEVELOPMENT_TEAM = 9M77CWP83M;
 				INFOPLIST_FILE = finalprojTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
