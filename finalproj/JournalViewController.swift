@@ -38,14 +38,6 @@ class JournalViewController: UIViewController, UITableViewDelegate, UITableViewD
         performSegue(withIdentifier: "switch", sender: self)
     }
     
-    func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let DestViewController : DetailJournalViewController = segue.destination as! DetailJournalViewController
-        
-        DestViewController.DateText = date[intask]
-        DestViewController.EntryText = journal[intask]
-        performSegue(withIdentifier: "switch", sender: self)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

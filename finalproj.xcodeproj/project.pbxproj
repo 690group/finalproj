@@ -19,6 +19,7 @@
 		1DCED71821BE4820007F259B /* NewJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED71721BE4820007F259B /* NewJournalViewController.swift */; };
 		1DCED71A21BE4CEF007F259B /* EditJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED71921BE4CEF007F259B /* EditJournalViewController.swift */; };
 		1DCED71C21BE52AD007F259B /* DetailJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED71B21BE52AD007F259B /* DetailJournalViewController.swift */; };
+		1DCED72321BF941E007F259B /* Journal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED72221BF941E007F259B /* Journal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1DCED71721BE4820007F259B /* NewJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalViewController.swift; sourceTree = "<group>"; };
 		1DCED71921BE4CEF007F259B /* EditJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalViewController.swift; sourceTree = "<group>"; };
 		1DCED71B21BE52AD007F259B /* DetailJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailJournalViewController.swift; sourceTree = "<group>"; };
+		1DCED72221BF941E007F259B /* Journal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Journal.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		1D02229021BB98670001A139 = {
 			isa = PBXGroup;
 			children = (
+				1DCED72221BF941E007F259B /* Journal.storyboard */,
 				1D02229B21BB98670001A139 /* finalproj */,
 				1D0222B221BB986A0001A139 /* finalprojTests */,
 				1D02229A21BB98670001A139 /* Products */,
@@ -201,6 +204,7 @@
 				1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */,
 				1D0222A621BB98690001A139 /* Assets.xcassets in Resources */,
 				1D0222A421BB98670001A139 /* Main.storyboard in Resources */,
+				1DCED72321BF941E007F259B /* Journal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
