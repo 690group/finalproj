@@ -10,12 +10,15 @@
 		1D02229D21BB98670001A139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02229C21BB98670001A139 /* AppDelegate.swift */; };
 		1D02229F21BB98670001A139 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02229E21BB98670001A139 /* Tracker.swift */; };
 		1D0222A121BB98670001A139 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222A021BB98670001A139 /* Calculator.swift */; };
-		1D0222A421BB98670001A139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0222A221BB98670001A139 /* Main.storyboard */; };
+		1D0222A421BB98670001A139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0222A221BB98670001A139 /* Main.storyboard */; settings = {ASSET_TAGS = ("Enter journal entry.", ); }; };
 		1D0222A621BB98690001A139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0222A521BB98690001A139 /* Assets.xcassets */; };
 		1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0222A721BB98690001A139 /* LaunchScreen.storyboard */; };
 		1D0222B421BB986A0001A139 /* finalprojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222B321BB986A0001A139 /* finalprojTests.swift */; };
 		1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* Music.swift */; };
-		1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* Journal.swift */; };
+		1D0222C121BB9C9F0001A139 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* JournalViewController.swift */; };
+		1DCED71821BE4820007F259B /* NewJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED71721BE4820007F259B /* NewJournalViewController.swift */; };
+		1DCED71A21BE4CEF007F259B /* EditJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED71921BE4CEF007F259B /* EditJournalViewController.swift */; };
+		1DCED71C21BE52AD007F259B /* DetailJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED71B21BE52AD007F259B /* DetailJournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,10 @@
 		1D0222B321BB986A0001A139 /* finalprojTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalprojTests.swift; sourceTree = "<group>"; };
 		1D0222B521BB986A0001A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0222BE21BB9C6E0001A139 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
-		1D0222C021BB9C9F0001A139 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		1D0222C021BB9C9F0001A139 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		1DCED71721BE4820007F259B /* NewJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalViewController.swift; sourceTree = "<group>"; };
+		1DCED71921BE4CEF007F259B /* EditJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalViewController.swift; sourceTree = "<group>"; };
+		1DCED71B21BE52AD007F259B /* DetailJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailJournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,10 @@
 				1D02229E21BB98670001A139 /* Tracker.swift */,
 				1D0222A021BB98670001A139 /* Calculator.swift */,
 				1D0222BE21BB9C6E0001A139 /* Music.swift */,
-				1D0222C021BB9C9F0001A139 /* Journal.swift */,
+				1D0222C021BB9C9F0001A139 /* JournalViewController.swift */,
+				1DCED71721BE4820007F259B /* NewJournalViewController.swift */,
+				1DCED71921BE4CEF007F259B /* EditJournalViewController.swift */,
+				1DCED71B21BE52AD007F259B /* DetailJournalViewController.swift */,
 				1D0222A221BB98670001A139 /* Main.storyboard */,
 				1D0222A521BB98690001A139 /* Assets.xcassets */,
 				1D0222A721BB98690001A139 /* LaunchScreen.storyboard */,
@@ -149,6 +158,9 @@
 		1D02229121BB98670001A139 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"Enter journal entry.",
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Jasmine Chen";
@@ -207,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0222A121BB98670001A139 /* Calculator.swift in Sources */,
-				1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */,
+				1DCED71821BE4820007F259B /* NewJournalViewController.swift in Sources */,
+				1DCED71A21BE4CEF007F259B /* EditJournalViewController.swift in Sources */,
+				1DCED71C21BE52AD007F259B /* DetailJournalViewController.swift in Sources */,
+				1D0222C121BB9C9F0001A139 /* JournalViewController.swift in Sources */,
 				1D02229D21BB98670001A139 /* AppDelegate.swift in Sources */,
 				1D02229F21BB98670001A139 /* Tracker.swift in Sources */,
 				1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */,
