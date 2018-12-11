@@ -29,13 +29,13 @@ class JournalViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        myTableView.reloadData()
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        intask = indexPath.row
+        performSegue(withIdentifier: "switch", sender: self)
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        intask = date.index(of: date[indexPath.row])!
-        performSegue(withIdentifier: "switch", sender: self)
+    override func viewDidAppear(_ animated: Bool) {
+        myTableView.reloadData()
     }
     
     override func viewDidLoad() {
