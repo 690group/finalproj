@@ -16,6 +16,7 @@
 		1D0222B421BB986A0001A139 /* finalprojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222B321BB986A0001A139 /* finalprojTests.swift */; };
 		1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* Music.swift */; };
 		1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* Journal.swift */; };
+		2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		1D0222B521BB986A0001A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0222BE21BB9C6E0001A139 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		1D0222C021BB9C9F0001A139 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		2676CBC421BD1E6A004B33C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finalproj/Base.lproj/Calculator.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				1D02229C21BB98670001A139 /* AppDelegate.swift */,
 				1D02229E21BB98670001A139 /* Tracker.swift */,
 				1D0222A021BB98670001A139 /* Calculator.swift */,
+				2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */,
 				1D0222BE21BB9C6E0001A139 /* Music.swift */,
 				1D0222C021BB9C9F0001A139 /* Journal.swift */,
 				1D0222A221BB98670001A139 /* Main.storyboard */,
@@ -188,6 +191,7 @@
 			files = (
 				1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */,
 				1D0222A621BB98690001A139 /* Assets.xcassets in Resources */,
+				2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */,
 				1D0222A421BB98670001A139 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +251,14 @@
 				1D0222A821BB98690001A139 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2676CBC421BD1E6A004B33C7 /* Base */,
+			);
+			name = Calculator.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

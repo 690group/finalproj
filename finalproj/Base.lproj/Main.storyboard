@@ -26,22 +26,6 @@
             </objects>
             <point key="canvasLocation" x="-1903" y="1265"/>
         </scene>
-        <!--Calculator-->
-        <scene sceneID="wg7-f3-ORb">
-            <objects>
-                <viewController id="8rJ-Kc-sve" customClass="Calculator" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Calculator" image="calculator" id="cPa-gy-q4n"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-927" y="1264"/>
-        </scene>
         <!--Music-->
         <scene sceneID="dXG-vC-3YO">
             <objects>
@@ -85,7 +69,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Zeb-0g-Kg7" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="ScS-OQ-9TE" kind="relationship" relationship="viewControllers" id="gWS-7X-tR2"/>
                         <segue destination="DhV-4H-1AY" kind="relationship" relationship="viewControllers" id="Tk7-eG-BV2"/>
                     </connections>
@@ -94,9 +78,18 @@
             </objects>
             <point key="canvasLocation" x="-300" y="233"/>
         </scene>
+        <!--Calculator-->
+        <scene sceneID="J8o-NL-RwC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calculator" id="Zeb-0g-Kg7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="5Re-Py-fBA"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LqE-Db-Nga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-927" y="1264"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="calculator" width="30" height="30"/>
         <image name="journal" width="30" height="30"/>
         <image name="music" width="30" height="30"/>
         <image name="tracker" width="30" height="30"/>
