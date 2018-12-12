@@ -17,6 +17,11 @@
 		1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* Music.swift */; };
 		1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* Journal.swift */; };
 		2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */; };
+		26B281EC21C0F26800B4CE2F /* WelcomeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B281EB21C0F26800B4CE2F /* WelcomeCalculator.swift */; };
+		26CA8F5C21BF86AC0055D7E6 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F5B21BF86AC0055D7E6 /* SelectedButton.swift */; };
+		26CA8F5E21BF98390055D7E6 /* resultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F5D21BF98390055D7E6 /* resultsController.swift */; };
+		26CA8F6021BFBB900055D7E6 /* TDEEModelMALE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F5F21BFBB900055D7E6 /* TDEEModelMALE.swift */; };
+		26CA8F6221BFD50A0055D7E6 /* TDEModelFEMALE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F6121BFD50A0055D7E6 /* TDEModelFEMALE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		1D0222BE21BB9C6E0001A139 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		1D0222C021BB9C9F0001A139 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		2676CBC421BD1E6A004B33C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finalproj/Base.lproj/Calculator.storyboard; sourceTree = "<group>"; };
+		26B281EB21C0F26800B4CE2F /* WelcomeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCalculator.swift; sourceTree = "<group>"; };
+		26CA8F5B21BF86AC0055D7E6 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		26CA8F5D21BF98390055D7E6 /* resultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsController.swift; sourceTree = "<group>"; };
+		26CA8F5F21BFBB900055D7E6 /* TDEEModelMALE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEModelMALE.swift; sourceTree = "<group>"; };
+		26CA8F6121BFD50A0055D7E6 /* TDEModelFEMALE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEModelFEMALE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +95,15 @@
 		1D02229B21BB98670001A139 /* finalproj */ = {
 			isa = PBXGroup;
 			children = (
+				26CA8F5B21BF86AC0055D7E6 /* SelectedButton.swift */,
 				1D02229C21BB98670001A139 /* AppDelegate.swift */,
 				1D02229E21BB98670001A139 /* Tracker.swift */,
 				1D0222A021BB98670001A139 /* Calculator.swift */,
+				26CA8F5F21BFBB900055D7E6 /* TDEEModelMALE.swift */,
+				26CA8F6121BFD50A0055D7E6 /* TDEModelFEMALE.swift */,
+				26CA8F5D21BF98390055D7E6 /* resultsController.swift */,
 				2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */,
+				26B281EB21C0F26800B4CE2F /* WelcomeCalculator.swift */,
 				1D0222BE21BB9C6E0001A139 /* Music.swift */,
 				1D0222C021BB9C9F0001A139 /* Journal.swift */,
 				1D0222A221BB98670001A139 /* Main.storyboard */,
@@ -210,10 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B281EC21C0F26800B4CE2F /* WelcomeCalculator.swift in Sources */,
+				26CA8F5E21BF98390055D7E6 /* resultsController.swift in Sources */,
+				26CA8F6221BFD50A0055D7E6 /* TDEModelFEMALE.swift in Sources */,
 				1D0222A121BB98670001A139 /* Calculator.swift in Sources */,
 				1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */,
 				1D02229D21BB98670001A139 /* AppDelegate.swift in Sources */,
 				1D02229F21BB98670001A139 /* Tracker.swift in Sources */,
+				26CA8F6021BFBB900055D7E6 /* TDEEModelMALE.swift in Sources */,
+				26CA8F5C21BF86AC0055D7E6 /* SelectedButton.swift in Sources */,
 				1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
