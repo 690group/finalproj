@@ -59,6 +59,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSMotionUsageDescription</key>
-	<string></string>
+	<string>to access pedometer</string>
 </dict>
 </plist>
