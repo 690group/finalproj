@@ -67,17 +67,18 @@
         <scene sceneID="acx-EM-4og">
             <objects>
                 <viewController id="e6r-3I-smq" customClass="MusicPlayer" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ltr-M3-FYB">
+                    <view key="view" contentMode="scaleAspectFit" id="ltr-M3-FYB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYo-hV-BQ7">
                                 <rect key="frame" x="16" y="64" width="343" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TQL-YD-PbJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weights.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TQL-YD-PbJ">
                                 <rect key="frame" x="16" y="119" width="343" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFL-z1-tBP">
@@ -136,7 +137,7 @@
                                 </connections>
                             </slider>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="vvn-Sg-4XQ" firstAttribute="trailing" secondItem="TQL-YD-PbJ" secondAttribute="trailing" constant="16" id="COn-Vm-JgG"/>
                             <constraint firstItem="aYo-hV-BQ7" firstAttribute="leading" secondItem="vvn-Sg-4XQ" secondAttribute="leading" constant="16" id="Qih-4n-MN2"/>
@@ -177,6 +178,7 @@
     </scenes>
     <resources>
         <image name="music" width="15" height="15"/>
+        <image name="weights.jpg" width="750" height="750"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jvS-m0-joE"/>

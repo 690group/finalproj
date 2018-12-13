@@ -23,6 +23,7 @@
 		6EED34CD21C255C100BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34C921C255C000BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */; };
 		6EED34CE21C255C100BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34CA21C255C000BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */; };
 		6EED34D021C2569700BFE3C5 /* musicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EED34CF21C2569700BFE3C5 /* musicPlayer.swift */; };
+		6EED34D221C2717300BFE3C5 /* weights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34D121C2717300BFE3C5 /* weights.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		6EED34C921C255C000BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Inside Out ft. Charlee (Audio).mp3"; sourceTree = "<group>"; };
 		6EED34CA21C255C000BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3"; sourceTree = "<group>"; };
 		6EED34CF21C2569700BFE3C5 /* musicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayer.swift; sourceTree = "<group>"; };
+		6EED34D121C2717300BFE3C5 /* weights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weights.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		6EED34C621C255C000BFE3C5 /* songs */ = {
 			isa = PBXGroup;
 			children = (
+				6EED34D121C2717300BFE3C5 /* weights.jpg */,
 				6EED34C721C255C000BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */,
 				6EED34C821C255C000BFE3C5 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */,
 				6EED34C921C255C000BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */,
@@ -224,6 +227,7 @@
 				2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */,
 				1D0222A421BB98670001A139 /* Main.storyboard in Resources */,
 				6EED34CB21C255C100BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 in Resources */,
+				6EED34D221C2717300BFE3C5 /* weights.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

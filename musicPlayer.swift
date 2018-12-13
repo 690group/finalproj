@@ -20,9 +20,10 @@ class MusicPlayer: UIViewController {
     
     @IBAction func playButton(_ sender: UIButton) {
         
+        //crashes if pressed when a song isn't playing or music player is empty
         if audioPlayer.isPlaying == false {
             audioPlayer.play()
-        }
+            }
         
     }
     
@@ -31,6 +32,7 @@ class MusicPlayer: UIViewController {
         if audioPlayer.isPlaying {
             audioPlayer.pause()
         }
+        
     }
     
     @IBAction func nextButton(_ sender: UIButton) {
@@ -92,7 +94,21 @@ class MusicPlayer: UIViewController {
     
     @IBAction func volumeSlider(_ sender: UISlider) {
         
-        //1 is max and 0 is min/mute
+        //first if handles crashing when using slider while music player is empty
+/*
+        if musicPlayerNotEmpty == true{
+            
+            //1 is max and 0 is min/mute
+            audioPlayer.volume = sender.value
+            
+            musicPlayerNotEmpty = false
+            print("if")
+        }
+        else {
+            audioPlayer.volume = sender.value
+            print("else")
+        }
+ */
         audioPlayer.volume = sender.value
     }
     
@@ -120,8 +136,6 @@ class MusicPlayer: UIViewController {
         
         songName.text = songs[songToTrack]
     }
-    
-    
     
 }
 

@@ -7,6 +7,9 @@ var audioPlayer = AVAudioPlayer()
 //for prev and next button to navigate through songs
 var songToTrack = 0
 
+//for play button when pressed while music player is empty to handle crashing
+var musicPlayerNotEmpty = false
+
 class Music: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var musicPlaylistTab: UITableView!
@@ -37,6 +40,9 @@ class Music: UIViewController,UITableViewDelegate, UITableViewDataSource {
             
             //accessing index for which song is playing
             songToTrack = indexPath.row
+            
+            //for play button to handle crash
+            musicPlayerNotEmpty = true
         }
         catch{
             print("Cannot play song!")
