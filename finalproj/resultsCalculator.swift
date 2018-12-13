@@ -18,13 +18,21 @@ class resultsCalculator: UIViewController {
     
     @IBOutlet weak var fats: UILabel!
     
+    @IBOutlet weak var resultsBackground: UIImageView!
+    
+    @IBOutlet weak var buttonToWebview: UIButton!
     var finalCalculations = ""
     var finalWeight = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //for displaying background
+         self.resultsBackground.image = UIImage(named: "graybackground")
         calories.text = finalCalculations
-        // Do any additional setup after loading the view, typically from a nib.
+ 
+        //to make rounded corners on uttons
+        buttonToWebview.layer.cornerRadius = buttonToWebview.frame.size.height/2
         
         let calculatedProtein = Double(finalWeight)! * 1.0
 

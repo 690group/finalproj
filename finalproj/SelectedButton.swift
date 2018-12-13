@@ -23,6 +23,7 @@ class selectedButton: UIButton {
     
     func initButton() {
         addTarget(self, action: #selector(selectedButton.buttonPressed), for: .touchUpInside)
+        layer.cornerRadius = frame.size.height/4
         
       //  addTarget(self, action: #selector(selectedButton.buttonIsNotPressed), for: .touchUpInside)
     }
@@ -38,7 +39,6 @@ class selectedButton: UIButton {
     func activateButton(bool: Bool) {
         isOn = bool
         let color = bool ? UIColor.orange : UIColor.lightGray
-        
         backgroundColor = color
     }
     

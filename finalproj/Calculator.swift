@@ -54,6 +54,9 @@ class Calculator: UIViewController {
         activityLevel = 1.5
     }
 
+    
+    @IBOutlet weak var formBackground: UIImageView!
+    
     //function for calculating the inputted weight of user to kilograms for calculation
     var calculatedResults = ""
     var universalWeight = ""
@@ -69,6 +72,7 @@ class Calculator: UIViewController {
         if (gender == "" || gender == "male") {
             print(inputedCalories)
             print(inputedActivityLevel)
+            
             
             let maleResults = TDEEModelMALE(feet: inputedFeet!, inches: inputedInches!, weight: inputedWeight!, age: inputedAge!, caloriesToAdjust: inputedCalories, activityLevel: inputedActivityLevel)
             
@@ -97,8 +101,11 @@ class Calculator: UIViewController {
         vc.finalWeight=self.universalWeight
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+         self.formBackground.image = UIImage(named: "graybackground")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
