@@ -31,8 +31,8 @@ class resultsCalculator: UIViewController {
          self.resultsBackground.image = UIImage(named: "graybackground")
         calories.text = finalCalculations
  
-        //to make rounded corners on uttons
-        buttonToWebview.layer.cornerRadius = buttonToWebview.frame.size.height/2
+        //to make rounded corners on buttons
+        buttonToWebview.layer.cornerRadius = buttonToWebview.frame.size.height/3
         
         let calculatedProtein = Double(finalWeight)! * 1.0
 

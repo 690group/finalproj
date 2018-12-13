@@ -44,7 +44,7 @@ class selectedButton: UIButton {
     
     func deactivateButton(bool: Bool) {
         isOn = false
-        let color = bool ? UIColor.lightGray : UIColor.lightGray
+        let color = bool ? UIColor.lightGray : UIColor.orange
         
         backgroundColor = color
     }

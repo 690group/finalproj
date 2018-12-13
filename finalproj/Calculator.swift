@@ -29,6 +29,7 @@ class Calculator: UIViewController {
     
     
     //lose a pound every 4 weeks
+    
     @IBAction func FatLossGoal(_ sender: Any) {
         caloriesToAdjust = -125
         }
@@ -53,46 +54,55 @@ class Calculator: UIViewController {
     @IBAction func activeLevel(_ sender: Any) {
         activityLevel = 1.5
     }
-
+ 
+    @IBOutlet weak var calculateButton: UIButton!
     
     @IBOutlet weak var formBackground: UIImageView!
     
     //function for calculating the inputted weight of user to kilograms for calculation
     var calculatedResults = ""
     var universalWeight = ""
+    
     @IBAction func calculateTDEE(_ sender: Any) {
         
-        let inputedFeet = Double(feet.text!)
-        let inputedInches = Double(inches.text!)
-        let inputedWeight = Double(weight.text!)
-        let inputedAge = Double(age.text!)
+        //this guard statements makes it so that the user cannot submit form without inputing the values
+        guard let inputedFeet = Double(feet.text!),
+            let inputedInches = Double(inches.text!),
+            let inputedWeight = Double(weight.text!),
+            let inputedAge = Double(age.text!) else {
+            print("Form is not inputed")
+            return
+        }
+        
+        //this guard statement enforces user to select a goal and activity level before submitting
         let inputedCalories = caloriesToAdjust
         let inputedActivityLevel = activityLevel
         
-        if (gender == "" || gender == "male") {
-            print(inputedCalories)
-            print(inputedActivityLevel)
+        //checking for valid inputs
+        if (inputedAge >= 0 && inputedAge <= 120 && inputedWeight >= 0 && inputedWeight <= 700
+            && inputedInches >= 0 && inputedInches <= 12 && inputedFeet >= 0 && inputedFeet <= 8 ) {
+
+            //while default and male continue to calculations
+            if (gender == "" || gender == "male") {
+        
+            let maleResults = TDEEModelMALE(feet: inputedFeet, inches: inputedInches, weight: inputedWeight, age: inputedAge, caloriesToAdjust: inputedCalories, activityLevel: inputedActivityLevel)
             
-            
-            let maleResults = TDEEModelMALE(feet: inputedFeet!, inches: inputedInches!, weight: inputedWeight!, age: inputedAge!, caloriesToAdjust: inputedCalories, activityLevel: inputedActivityLevel)
-            
-            self.universalWeight = String(inputedWeight!)
+            self.universalWeight = String(inputedWeight)
             self.calculatedResults = String(maleResults.TDEEMale())
                performSegue(withIdentifier: "transitionToResultsView", sender: self)
-        }
+            }
             
+            //while not default and female continue to calcuations
         else if (gender != "" && gender == "female"){
-            print(inputedCalories)
-            print(inputedActivityLevel)
+
+            let femaleResults = TDEEModelFEMALE(feet: inputedFeet, inches: inputedInches, weight: inputedWeight, age: inputedAge, caloriesToAdjust: inputedCalories, activityLevel: inputedActivityLevel)
             
-            let femaleResults = TDEEModelFEMALE(feet: inputedFeet!, inches: inputedInches!, weight: inputedWeight!, age: inputedAge!, caloriesToAdjust: inputedCalories, activityLevel: inputedActivityLevel)
-            
-            self.universalWeight = String(inputedWeight!)
+            self.universalWeight = String(inputedWeight)
             self.calculatedResults = String(femaleResults.TDEEFemale())
                performSegue(withIdentifier: "transitionToResultsView", sender: self)
         }
       
-     
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -104,6 +114,9 @@ class Calculator: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //give rounded button effect
+        calculateButton.layer.cornerRadius = calculateButton.frame.size.height/3
         
          self.formBackground.image = UIImage(named: "graybackground")
         // Do any additional setup after loading the view, typically from a nib.

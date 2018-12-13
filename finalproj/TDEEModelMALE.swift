@@ -31,12 +31,7 @@ class TDEEModelMALE {
         let ageCalculation = -5 * age + 5
         
         let BasalMetobolicRate = weightCalculation + heightCalculation + ageCalculation
-    
-        if(caloriesToAdjust == 0 && activityLevel == 0){
-            return Int(BasalMetobolicRate)
-        } else {
+        
             return Int((BasalMetobolicRate*activityLevel) + caloriesToAdjust)
-            
-        }
     }
 }
