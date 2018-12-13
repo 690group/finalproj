@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V7s-B9-ZpH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Music-->
+        <scene sceneID="dXG-vC-3YO">
+            <objects>
+                <viewController id="ScS-OQ-9TE" customClass="Music" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DHA-QI-coK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zsq-IA-Bd2">
+                                <rect key="frame" x="0.0" y="73" width="375" height="481"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ScS-OQ-9TE" id="Jit-7f-Omr"/>
+                                    <outlet property="delegate" destination="ScS-OQ-9TE" id="LAb-zT-J65"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udb-cY-Ace">
+                                <rect key="frame" x="16" y="582" width="343" height="55"/>
+                                <color key="backgroundColor" red="0.1105484734" green="0.38321685649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Music Player">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopButton:" destination="e6r-3I-smq" eventType="touchUpInside" id="xCd-nd-cV6"/>
+                                    <segue destination="e6r-3I-smq" kind="show" identifier="musicPlayer" id="VXG-f0-9Jk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zsq-IA-Bd2" firstAttribute="leading" secondItem="PnD-F2-her" secondAttribute="leading" id="5fy-hO-G89"/>
+                            <constraint firstItem="PnD-F2-her" firstAttribute="bottom" secondItem="Udb-cY-Ace" secondAttribute="bottom" constant="30" id="BHM-iL-fhu"/>
+                            <constraint firstItem="Zsq-IA-Bd2" firstAttribute="trailing" secondItem="PnD-F2-her" secondAttribute="trailing" id="MiI-pH-Jwp"/>
+                            <constraint firstItem="Udb-cY-Ace" firstAttribute="top" secondItem="Zsq-IA-Bd2" secondAttribute="bottom" constant="28" id="V1r-6w-cPs"/>
+                            <constraint firstItem="PnD-F2-her" firstAttribute="bottom" secondItem="Zsq-IA-Bd2" secondAttribute="bottom" constant="113" id="YfU-wa-Obr"/>
+                            <constraint firstItem="PnD-F2-her" firstAttribute="trailing" secondItem="Udb-cY-Ace" secondAttribute="trailing" constant="16" id="Z1e-vK-60f"/>
+                            <constraint firstItem="Udb-cY-Ace" firstAttribute="leading" secondItem="PnD-F2-her" secondAttribute="leading" constant="16" id="ZXB-hE-PiM"/>
+                            <constraint firstItem="Zsq-IA-Bd2" firstAttribute="top" secondItem="PnD-F2-her" secondAttribute="top" constant="9" id="ouk-at-iif"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PnD-F2-her"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Music" image="music" id="aUc-55-fhB"/>
+                    <navigationItem key="navigationItem" id="h8I-8P-Tbk"/>
+                    <connections>
+                        <outlet property="musicPlaylistTab" destination="Zsq-IA-Bd2" id="56k-n0-ncN"/>
+                        <segue destination="e6r-3I-smq" kind="show" identifier="musicPlayer" id="jvS-m0-joE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4An-TX-GwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="1263.4182908545729"/>
+        </scene>
+        <!--Music Player-->
+        <scene sceneID="acx-EM-4og">
+            <objects>
+                <viewController id="e6r-3I-smq" customClass="MusicPlayer" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ltr-M3-FYB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYo-hV-BQ7">
+                                <rect key="frame" x="16" y="64" width="343" height="40"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TQL-YD-PbJ">
+                                <rect key="frame" x="16" y="119" width="343" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFL-z1-tBP">
+                                <rect key="frame" x="16" y="529" width="100" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11054847336845752" green="0.38321685647015113" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopButton:" destination="e6r-3I-smq" eventType="touchUpInside" id="ejo-9p-GZ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lB-pX-TGH">
+                                <rect key="frame" x="16" y="592" width="100" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1105484734" green="0.38321685649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Prev">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="prevButton:" destination="e6r-3I-smq" eventType="touchUpInside" id="Y5l-uq-ebz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iR4-qp-Ba1">
+                                <rect key="frame" x="259" y="529" width="100" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1105484734" green="0.38321685649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButton:" destination="e6r-3I-smq" eventType="touchUpInside" id="V5B-vU-3yu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6H3-Uv-nK9">
+                                <rect key="frame" x="259" y="592" width="100" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1105484734" green="0.38321685649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButton:" destination="e6r-3I-smq" eventType="touchUpInside" id="j53-ep-w1I"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pQv-C1-Z8Y">
+                                <rect key="frame" x="124" y="617" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="volumeSlider:" destination="e6r-3I-smq" eventType="valueChanged" id="bNs-Pq-RXO"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vvn-Sg-4XQ" firstAttribute="trailing" secondItem="TQL-YD-PbJ" secondAttribute="trailing" constant="16" id="COn-Vm-JgG"/>
+                            <constraint firstItem="aYo-hV-BQ7" firstAttribute="leading" secondItem="vvn-Sg-4XQ" secondAttribute="leading" constant="16" id="Qih-4n-MN2"/>
+                            <constraint firstItem="aYo-hV-BQ7" firstAttribute="top" secondItem="vvn-Sg-4XQ" secondAttribute="top" id="UAx-j5-AgJ"/>
+                            <constraint firstItem="vvn-Sg-4XQ" firstAttribute="bottom" secondItem="TQL-YD-PbJ" secondAttribute="bottom" constant="420" id="VDg-4r-axP"/>
+                            <constraint firstItem="TQL-YD-PbJ" firstAttribute="leading" secondItem="vvn-Sg-4XQ" secondAttribute="leading" constant="16" id="VIs-L1-5BY"/>
+                            <constraint firstItem="vvn-Sg-4XQ" firstAttribute="trailing" secondItem="aYo-hV-BQ7" secondAttribute="trailing" constant="16" id="bhv-Nl-fbE"/>
+                            <constraint firstItem="vvn-Sg-4XQ" firstAttribute="bottom" secondItem="aYo-hV-BQ7" secondAttribute="bottom" constant="563" id="dy5-ZE-kHi"/>
+                            <constraint firstItem="TQL-YD-PbJ" firstAttribute="top" secondItem="aYo-hV-BQ7" secondAttribute="bottom" constant="15" id="eeJ-qw-2sV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vvn-Sg-4XQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="TQL-YD-PbJ" id="m2E-90-UxP"/>
+                        <outlet property="songName" destination="aYo-hV-BQ7" id="6y6-3J-lJK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLV-qA-202" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805.60000000000002" y="1262.5187406296852"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="s4Y-PD-ido">
+            <objects>
+                <navigationController id="V7s-B9-ZpH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jd3-SB-RvZ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ScS-OQ-9TE" kind="relationship" relationship="rootViewController" id="HHP-B3-0b7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfa-in-fhj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-631" y="1263"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music" width="15" height="15"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="jvS-m0-joE"/>
+    </inferredMetricsTieBreakers>
+</document>

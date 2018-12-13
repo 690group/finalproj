@@ -17,6 +17,12 @@
 		1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* Music.swift */; };
 		1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* Journal.swift */; };
 		2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */; };
+		6EED34C521C254F100BFE3C5 /* music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34C321C254F100BFE3C5 /* music.storyboard */; };
+		6EED34CB21C255C100BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34C721C255C000BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */; };
+		6EED34CC21C255C100BFE3C5 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34C821C255C000BFE3C5 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */; };
+		6EED34CD21C255C100BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34C921C255C000BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */; };
+		6EED34CE21C255C100BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EED34CA21C255C000BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */; };
+		6EED34D021C2569700BFE3C5 /* musicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EED34CF21C2569700BFE3C5 /* musicPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		1D0222BE21BB9C6E0001A139 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		1D0222C021BB9C9F0001A139 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		2676CBC421BD1E6A004B33C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finalproj/Base.lproj/Calculator.storyboard; sourceTree = "<group>"; };
+		6EED34C421C254F100BFE3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finalproj/Base.lproj/music.storyboard; sourceTree = "<group>"; };
+		6EED34C721C255C000BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3"; sourceTree = "<group>"; };
+		6EED34C821C255C000BFE3C5 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3"; sourceTree = "<group>"; };
+		6EED34C921C255C000BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Inside Out ft. Charlee (Audio).mp3"; sourceTree = "<group>"; };
+		6EED34CA21C255C000BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3"; sourceTree = "<group>"; };
+		6EED34CF21C2569700BFE3C5 /* musicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,8 @@
 		1D02229021BB98670001A139 = {
 			isa = PBXGroup;
 			children = (
+				6EED34CF21C2569700BFE3C5 /* musicPlayer.swift */,
+				6EED34C321C254F100BFE3C5 /* music.storyboard */,
 				1D02229B21BB98670001A139 /* finalproj */,
 				1D0222B221BB986A0001A139 /* finalprojTests */,
 				1D02229A21BB98670001A139 /* Products */,
@@ -95,6 +109,7 @@
 				1D0222A521BB98690001A139 /* Assets.xcassets */,
 				1D0222A721BB98690001A139 /* LaunchScreen.storyboard */,
 				1D0222AA21BB98690001A139 /* Info.plist */,
+				6EED34C621C255C000BFE3C5 /* songs */,
 			);
 			path = finalproj;
 			sourceTree = "<group>";
@@ -106,6 +121,17 @@
 				1D0222B521BB986A0001A139 /* Info.plist */,
 			);
 			path = finalprojTests;
+			sourceTree = "<group>";
+		};
+		6EED34C621C255C000BFE3C5 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				6EED34C721C255C000BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */,
+				6EED34C821C255C000BFE3C5 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */,
+				6EED34C921C255C000BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */,
+				6EED34CA21C255C000BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */,
+			);
+			path = songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */,
+				6EED34C521C254F100BFE3C5 /* music.storyboard in Resources */,
 				1D0222A621BB98690001A139 /* Assets.xcassets in Resources */,
+				6EED34CE21C255C100BFE3C5 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 in Resources */,
+				6EED34CD21C255C100BFE3C5 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 in Resources */,
+				6EED34CC21C255C100BFE3C5 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 in Resources */,
 				2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */,
 				1D0222A421BB98670001A139 /* Main.storyboard in Resources */,
+				6EED34CB21C255C100BFE3C5 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EED34D021C2569700BFE3C5 /* musicPlayer.swift in Sources */,
 				1D0222A121BB98670001A139 /* Calculator.swift in Sources */,
 				1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */,
 				1D02229D21BB98670001A139 /* AppDelegate.swift in Sources */,
@@ -259,6 +291,14 @@
 				2676CBC421BD1E6A004B33C7 /* Base */,
 			);
 			name = Calculator.storyboard;
+			sourceTree = "<group>";
+		};
+		6EED34C321C254F100BFE3C5 /* music.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EED34C421C254F100BFE3C5 /* Base */,
+			);
+			name = music.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

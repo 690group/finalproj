@@ -26,22 +26,6 @@
             </objects>
             <point key="canvasLocation" x="-1903" y="1265"/>
         </scene>
-        <!--Music-->
-        <scene sceneID="dXG-vC-3YO">
-            <objects>
-                <viewController id="ScS-OQ-9TE" customClass="Music" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DHA-QI-coK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="PnD-F2-her"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Music" image="music" id="aUc-55-fhB"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4An-TX-GwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="116" y="1264"/>
-        </scene>
         <!--Journal-->
         <scene sceneID="FW2-Xt-RAf">
             <objects>
@@ -70,7 +54,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="Zeb-0g-Kg7" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="ScS-OQ-9TE" kind="relationship" relationship="viewControllers" id="gWS-7X-tR2"/>
+                        <segue destination="Rdb-dF-W07" kind="relationship" relationship="viewControllers" id="gWS-7X-tR2"/>
                         <segue destination="DhV-4H-1AY" kind="relationship" relationship="viewControllers" id="Tk7-eG-BV2"/>
                     </connections>
                 </tabBarController>
@@ -88,10 +72,19 @@
             </objects>
             <point key="canvasLocation" x="-927" y="1264"/>
         </scene>
+        <!--music-->
+        <scene sceneID="TSR-b4-EPf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="music" id="Rdb-dF-W07" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="9Fx-g2-YMb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aaf-rW-iV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="1264"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="journal" width="30" height="30"/>
-        <image name="music" width="30" height="30"/>
-        <image name="tracker" width="30" height="30"/>
+        <image name="journal" width="20" height="20"/>
+        <image name="tracker" width="15" height="15"/>
     </resources>
 </document>
