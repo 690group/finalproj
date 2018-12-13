@@ -7,11 +7,8 @@ class Tracker: UIViewController {
     @IBOutlet weak var stepslbl: UILabel!
     @IBOutlet weak var distlbl: UILabel!
     @IBOutlet weak var calslbl: UILabel!
+    @IBOutlet weak var startBtn: UIButton!
     
-    @IBOutlet weak var activityLabel: UILabel!
-    
-    
-    var numOfSteps:Int! = nil
     var dist: Double! = nil
     var cals:Double! = nil
    
@@ -26,28 +23,49 @@ class Tracker: UIViewController {
         let calendar = Calendar.current
         let year = calendar.component(.year, from: date)
         let month = calendar.component(.month, from: date)
+        var monthLbl = ""
+        
         let day = calendar.component(.day, from: date)
         
-       // switch {}
+            switch month {
+            case 1:
+                monthLbl = "Jan"
+            case 2:
+                monthLbl = "Feb"
+            case 3:
+                monthLbl = "March"
+            case 4:
+                monthLbl = "April"
+            case 5:
+                monthLbl = "May"
+            case 6:
+                monthLbl = "June"
+            case 7:
+                monthLbl = "July"
+            case 8:
+                monthLbl = "Aug"
+            case 9:
+                monthLbl = "Sept"
+            case 10:
+                monthLbl = "Oct"
+            case 11:
+                monthLbl = "Nov"
+            case 12:
+                monthLbl = "Dec"
+            default:
+                monthLbl = "err"
+            }
         
-        
-        
-        return "\(month)/\(day)/\(year)"
+        return "\(monthLbl)/ \(day)/ \(year)"
     }
-    
-    
-    
     
     
     override func viewDidLoad() {
         dateLbl.text = currentTime()
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        startBtn.layer.cornerRadius = 10
     }
 
-    
-    
     @IBAction func btnPressed(_ sender: UIButton) {
         if sender.titleLabel?.text == "Start"{
             sender.setTitle("Stop", for:.normal)
@@ -58,31 +76,8 @@ class Tracker: UIViewController {
             sender.setTitle("Start", for: .normal)
             stopUpdating()
         }
-        
-    }
-   
-    
-    
-    
-    
-    @IBAction func butp(_ sender: Any) {
-        activityLabel.text = "button was pressed"
     }
     
-    /*
-    open func queryPedometerData(from start: Date, to end: Date, withHandler handler: @escaping CMPedometerHandler){
-        
-    }
-    
-    
-    open func startUpdates(from start: Date, withHandler handler: @escaping CMPedometerHandler){
-        
-    }
-    
-    
-    
-   
-    */
     
      func startTrackingActivityType() {
         activityManager.startActivityUpdates(to: OperationQueue.main) {
@@ -90,16 +85,16 @@ class Tracker: UIViewController {
             guard let activity = activity else { return }
             DispatchQueue.main.async {
                 if activity.walking{
-                    self?.activityLabel.text = "walking"
+                    self?.calslbl.text = "walking"
                 } else if activity.stationary {
-                    self?.activityLabel.text = "stationary"
+                    self?.calslbl.text = "stationary"
                 } else if activity.running {
-                    self?.activityLabel.text = "running"
+                    self?.calslbl.text = "running"
                 }
             }
         }
      }
- 
+
     
     
     func countSteps() {
@@ -109,6 +104,17 @@ class Tracker: UIViewController {
             
             DispatchQueue.main.async {
                 self?.stepslbl.text = pedometerData.numberOfSteps.stringValue
+                self?.dist = pedometerData.distance?.doubleValue
+                
+                guard
+                    let distance = self?.dist,
+                    let milesRes = self?.miles(meters: distance)
+                else {
+                    self?.distlbl.text = "N/A"
+                    return
+                }
+                
+                self?.distlbl.text = String (format:"%02.03f mi", milesRes)
             }
         }
     }
@@ -130,7 +136,11 @@ class Tracker: UIViewController {
         pedometer.stopEventUpdates()
     }
     
- 
+    func miles(meters:Double)-> Double{
+        let mile = 0.000621371192
+        return meters * mile
+    }
+    
     
 }
 

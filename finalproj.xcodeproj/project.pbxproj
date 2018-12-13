@@ -67,7 +67,6 @@
 		1D02229021BB98670001A139 = {
 			isa = PBXGroup;
 			children = (
-				F6E1DF5021BCE8B2006998D5 /* tracker.storyboard */,
 				1D02229B21BB98670001A139 /* finalproj */,
 				1D0222B221BB986A0001A139 /* finalprojTests */,
 				1D02229A21BB98670001A139 /* Products */,
@@ -86,6 +85,7 @@
 		1D02229B21BB98670001A139 /* finalproj */ = {
 			isa = PBXGroup;
 			children = (
+				F6E1DF5021BCE8B2006998D5 /* tracker.storyboard */,
 				1D02229C21BB98670001A139 /* AppDelegate.swift */,
 				1D02229E21BB98670001A139 /* Tracker.swift */,
 				1D0222A021BB98670001A139 /* Calculator.swift */,
