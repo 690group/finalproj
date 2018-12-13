@@ -682,10 +682,10 @@
             </objects>
             <point key="canvasLocation" x="3692" y="1100.9852216748768"/>
         </scene>
-        <!--Website View-->
+        <!--Learn More About Macros-->
         <scene sceneID="bYh-qH-5QS">
             <objects>
-                <viewController title="Website View" id="yW1-Px-lTL" customClass="websiteViewController" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Learn More About Macros" id="yW1-Px-lTL" customClass="websiteViewController" customModule="finalproj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v4S-Ds-9V4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
