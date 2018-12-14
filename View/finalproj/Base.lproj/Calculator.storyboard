@@ -18,107 +18,107 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fgw-Fy-fgo">
-                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orange-ombre" translatesAutoresizingMaskIntoConstraints="NO" id="Fgw-Fy-fgo">
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="important in factoring what nutrition your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcr-Mi-FzC">
-                                <rect key="frame" x="16" y="557" width="321" height="21"/>
+                                <rect key="frame" x="16" y="554.33333333333337" width="321" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="have a better understanding of why both are" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uY-LN-4Rz">
-                                <rect key="frame" x="16" y="539" width="353" height="21"/>
+                                <rect key="frame" x="16" y="536.33333333333337" width="353" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="able to reach your fitness goals quicker and " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a00-bw-Usu">
-                                <rect key="frame" x="16" y="520" width="353" height="21"/>
+                                <rect key="frame" x="16" y="517.33333333333337" width="353" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="With a combination of the two, you shall be" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIk-9q-Xf0">
-                                <rect key="frame" x="16" y="503" width="343" height="21"/>
+                                <rect key="frame" x="16" y="500.33333333333331" width="343" height="20.999999999999943"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why should you know both?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCV-iK-xY5">
-                                <rect key="frame" x="15" y="476" width="314" height="27"/>
+                                <rect key="frame" x="15" y="473.33333333333331" width="314" height="27"/>
                                 <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="proteins, and carbohydrates. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo9-5f-1eo">
-                                <rect key="frame" x="15" y="440" width="343" height="21"/>
+                                <rect key="frame" x="15" y="437.33333333333331" width="343" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="components in every diet. They are fats," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-OP-rYH">
-                                <rect key="frame" x="16" y="422" width="343" height="21"/>
+                                <rect key="frame" x="16" y="419.33333333333331" width="343" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Macronutrients are the three basic " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oF4-kf-fKG">
-                                <rect key="frame" x="16" y="404" width="279" height="21"/>
+                                <rect key="frame" x="16" y="401.33333333333331" width="279" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are macronutrients?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gq-ds-P0F">
-                                <rect key="frame" x="16" y="379" width="285" height="27"/>
+                                <rect key="frame" x="16" y="376.33333333333331" width="285" height="27"/>
                                 <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gender, weight, physical activity level, etc." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVr-YU-c3i">
-                                <rect key="frame" x="16" y="341" width="344" height="21"/>
+                                <rect key="frame" x="16" y="338.33333333333331" width="344" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you should consume daily based on age," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAY-9c-enf">
-                                <rect key="frame" x="15" y="324" width="327" height="21"/>
+                                <rect key="frame" x="15" y="321.33333333333331" width="327" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your caloric intake is the estimated calories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVE-3v-I63">
-                                <rect key="frame" x="15" y="306" width="345" height="21"/>
+                                <rect key="frame" x="15" y="303.33333333333331" width="345" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and Macronutrient Calculator!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vye-zR-kjR">
-                                <rect key="frame" x="11" y="194" width="356" height="29"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
-                                <color key="textColor" red="0.99597054719924927" green="0.99614065885543823" blue="0.99595993757247925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And Macronutrient Calculator!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vye-zR-kjR">
+                                <rect key="frame" x="11" y="192.66666666666666" width="356" height="27.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Caloric Intake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ony-R6-uya">
-                                <rect key="frame" x="12" y="154" width="356" height="29"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
-                                <color key="textColor" red="0.99597054719924927" green="0.99614065885543823" blue="0.99595993757247925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To The Caloric Intake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ony-R6-uya">
+                                <rect key="frame" x="12" y="154" width="356" height="27.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is caloric intake?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piR-hS-7Wn">
-                                <rect key="frame" x="12.000000000000014" y="281" width="249.33333333333337" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is my caloric intake?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piR-hS-7Wn">
+                                <rect key="frame" x="12" y="278.33333333333331" width="289" height="27"/>
                                 <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lifestyle requires. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMd-0J-pb9">
-                                <rect key="frame" x="16" y="576" width="141" height="21"/>
+                                <rect key="frame" x="16" y="573.33333333333337" width="141" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT7-Co-DnN">
-                                <rect key="frame" x="74" y="633" width="227" height="34"/>
+                                <rect key="frame" x="74" y="630.33333333333337" width="227" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
                                 <state key="normal" title="FIND YOUR MACROS">
@@ -144,6 +144,7 @@
                             <constraint firstItem="HqU-5d-6xr" firstAttribute="trailing" secondItem="qCV-iK-xY5" secondAttribute="trailing" constant="46" id="Aza-eB-vA6"/>
                             <constraint firstItem="Ony-R6-uya" firstAttribute="top" secondItem="HqU-5d-6xr" secondAttribute="top" constant="66" id="DnS-yD-wIm"/>
                             <constraint firstItem="xcr-Mi-FzC" firstAttribute="leading" secondItem="HqU-5d-6xr" secondAttribute="leading" constant="16" id="EAg-ry-S1b"/>
+                            <constraint firstItem="HqU-5d-6xr" firstAttribute="trailing" secondItem="piR-hS-7Wn" secondAttribute="trailing" constant="74" id="Ezj-S6-9ww"/>
                             <constraint firstItem="qCV-iK-xY5" firstAttribute="top" secondItem="vo9-5f-1eo" secondAttribute="bottom" constant="15" id="FZO-Lp-qj4"/>
                             <constraint firstItem="8uY-LN-4Rz" firstAttribute="leading" secondItem="HqU-5d-6xr" secondAttribute="leading" constant="16" id="FaE-Su-pLz"/>
                             <constraint firstItem="HqU-5d-6xr" firstAttribute="trailing" secondItem="a00-bw-Usu" secondAttribute="trailing" constant="6" id="Hkb-eg-eMj"/>
@@ -177,7 +178,6 @@
                             <constraint firstItem="rVE-3v-I63" firstAttribute="leading" secondItem="HqU-5d-6xr" secondAttribute="leading" constant="15" id="jqB-Dy-aYW"/>
                             <constraint firstItem="Ony-R6-uya" firstAttribute="leading" secondItem="HqU-5d-6xr" secondAttribute="leading" constant="12" id="kdu-XD-wDW"/>
                             <constraint firstItem="HqU-5d-6xr" firstAttribute="trailing" secondItem="eAY-9c-enf" secondAttribute="trailing" constant="33" id="lVr-Op-Qbb"/>
-                            <constraint firstItem="HqU-5d-6xr" firstAttribute="trailing" secondItem="piR-hS-7Wn" secondAttribute="trailing" constant="113.67" id="lhQ-Yf-r93"/>
                             <constraint firstItem="QT7-Co-DnN" firstAttribute="top" secondItem="NMd-0J-pb9" secondAttribute="bottom" constant="36" id="nyq-mK-44u"/>
                             <constraint firstItem="a00-bw-Usu" firstAttribute="top" secondItem="qCV-iK-xY5" secondAttribute="bottom" constant="17" id="oTI-bI-cGb"/>
                             <constraint firstItem="HqU-5d-6xr" firstAttribute="trailing" secondItem="oF4-kf-fKG" secondAttribute="trailing" constant="80" id="psd-xG-sgX"/>
@@ -192,8 +192,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Calculator" image="calculator" id="msQ-wG-n1l"/>
                     <navigationItem key="navigationItem" id="iKS-2Q-NgT"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="buttonToCalculatorVC" destination="QT7-Co-DnN" id="2VH-dN-mfe"/>
                         <outlet property="welcomeBanner" destination="Fgw-Fy-fgo" id="W8M-F0-fwr"/>
@@ -212,7 +210,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-WP-WXs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graybackground" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-WP-WXs">
                                 <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAILY CALORIC INTAKE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKp-e5-gjv">
@@ -516,7 +514,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-89-XeW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graybackground" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-89-XeW">
                                 <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CARBS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4E-HA-e5H">
@@ -755,6 +753,8 @@
     </scenes>
     <resources>
         <image name="calculator" width="45" height="45"/>
+        <image name="graybackground" width="768" height="1366"/>
+        <image name="orange-ombre" width="768" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vbM-l9-dBf"/>

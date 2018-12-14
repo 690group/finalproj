@@ -20,6 +20,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Z0Z-on-sHD">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="tintColor" red="0.54205876588821411" green="0.77612775564193726" blue="0.59029167890548706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyFitnessFriend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dr-fB-FXM">
                                 <rect key="frame" x="69" y="232" width="237" height="40"/>
