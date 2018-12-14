@@ -14,8 +14,26 @@
 		1D0222A621BB98690001A139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0222A521BB98690001A139 /* Assets.xcassets */; };
 		1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0222A721BB98690001A139 /* LaunchScreen.storyboard */; };
 		1D0222B421BB986A0001A139 /* finalprojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222B321BB986A0001A139 /* finalprojTests.swift */; };
-		1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* Music.swift */; };
-		1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* Journal.swift */; };
+		1D0222BF21BB9C6E0001A139 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222BE21BB9C6E0001A139 /* MusicPlayer.swift */; };
+		1D0222C121BB9C9F0001A139 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0222C021BB9C9F0001A139 /* JournalViewController.swift */; };
+		26121E2021C202E00064A3BC /* websiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26121E1F21C202E00064A3BC /* websiteViewController.swift */; };
+		26759A9E21C34FB1003E3623 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26759A9A21C34FB1003E3623 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */; };
+		26759A9F21C34FB1003E3623 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26759A9B21C34FB1003E3623 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */; };
+		26759AA021C34FB1003E3623 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26759A9C21C34FB1003E3623 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */; };
+		26759AA121C34FB1003E3623 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26759A9D21C34FB1003E3623 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */; };
+		2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */; };
+		26B281EC21C0F26800B4CE2F /* WelcomeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B281EB21C0F26800B4CE2F /* WelcomeCalculator.swift */; };
+		26B8D63A21C3B68700797618 /* Tracker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D63921C3B68700797618 /* Tracker.storyboard */; };
+		26B8D63F21C3B70500797618 /* Journal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D63E21C3B70500797618 /* Journal.storyboard */; };
+		26B8D64221C3B73400797618 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B8D64021C3B73400797618 /* Music.storyboard */; };
+		26CA8F5C21BF86AC0055D7E6 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F5B21BF86AC0055D7E6 /* SelectedButton.swift */; };
+		26CA8F5E21BF98390055D7E6 /* resultsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F5D21BF98390055D7E6 /* resultsCalculator.swift */; };
+		26CA8F6021BFBB900055D7E6 /* TDEEModelMALE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F5F21BFBB900055D7E6 /* TDEEModelMALE.swift */; };
+		26CA8F6221BFD50A0055D7E6 /* TDEModelFEMALE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA8F6121BFD50A0055D7E6 /* TDEModelFEMALE.swift */; };
+		26D862CA21C34A10009C92A6 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D862C921C34A10009C92A6 /* Music.swift */; };
+		26E70DBA21C354A900B7A500 /* DetailJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E70DB921C354A900B7A500 /* DetailJournalViewController.swift */; };
+		26E70DBC21C354E100B7A500 /* EditJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E70DBB21C354E100B7A500 /* EditJournalViewController.swift */; };
+		26E70DBE21C3551900B7A500 /* NewJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E70DBD21C3551900B7A500 /* NewJournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +58,26 @@
 		1D0222AF21BB986A0001A139 /* finalprojTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalprojTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0222B321BB986A0001A139 /* finalprojTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalprojTests.swift; sourceTree = "<group>"; };
 		1D0222B521BB986A0001A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D0222BE21BB9C6E0001A139 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
-		1D0222C021BB9C9F0001A139 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		1D0222BE21BB9C6E0001A139 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		1D0222C021BB9C9F0001A139 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		26121E1F21C202E00064A3BC /* websiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = websiteViewController.swift; sourceTree = "<group>"; };
+		26759A9A21C34FB1003E3623 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3"; sourceTree = "<group>"; };
+		26759A9B21C34FB1003E3623 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3"; sourceTree = "<group>"; };
+		26759A9C21C34FB1003E3623 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Inside Out ft. Charlee (Audio).mp3"; sourceTree = "<group>"; };
+		26759A9D21C34FB1003E3623 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3"; sourceTree = "<group>"; };
+		2676CBC421BD1E6A004B33C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = finalproj/Base.lproj/Calculator.storyboard; sourceTree = "<group>"; };
+		26B281EB21C0F26800B4CE2F /* WelcomeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCalculator.swift; sourceTree = "<group>"; };
+		26B8D63921C3B68700797618 /* Tracker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tracker.storyboard; sourceTree = "<group>"; };
+		26B8D63E21C3B70500797618 /* Journal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Journal.storyboard; sourceTree = "<group>"; };
+		26B8D64121C3B73400797618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = View/Base.lproj/Music.storyboard; sourceTree = "<group>"; };
+		26CA8F5B21BF86AC0055D7E6 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		26CA8F5D21BF98390055D7E6 /* resultsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsCalculator.swift; sourceTree = "<group>"; };
+		26CA8F5F21BFBB900055D7E6 /* TDEEModelMALE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEModelMALE.swift; sourceTree = "<group>"; };
+		26CA8F6121BFD50A0055D7E6 /* TDEModelFEMALE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEModelFEMALE.swift; sourceTree = "<group>"; };
+		26D862C921C34A10009C92A6 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		26E70DB921C354A900B7A500 /* DetailJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailJournalViewController.swift; sourceTree = "<group>"; };
+		26E70DBB21C354E100B7A500 /* EditJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalViewController.swift; sourceTree = "<group>"; };
+		26E70DBD21C3551900B7A500 /* NewJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +101,13 @@
 		1D02229021BB98670001A139 = {
 			isa = PBXGroup;
 			children = (
+				26B8D63821C3B5DE00797618 /* Controller */,
+				26B8D63721C3B57E00797618 /* View */,
+				26B8D63621C3B51300797618 /* Model */,
 				1D02229B21BB98670001A139 /* finalproj */,
 				1D0222B221BB986A0001A139 /* finalprojTests */,
 				1D02229A21BB98670001A139 /* Products */,
+				26759A9921C34FB1003E3623 /* songs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +123,7 @@
 		1D02229B21BB98670001A139 /* finalproj */ = {
 			isa = PBXGroup;
 			children = (
-				1D02229C21BB98670001A139 /* AppDelegate.swift */,
-				1D02229E21BB98670001A139 /* Tracker.swift */,
-				1D0222A021BB98670001A139 /* Calculator.swift */,
-				1D0222BE21BB9C6E0001A139 /* Music.swift */,
-				1D0222C021BB9C9F0001A139 /* Journal.swift */,
-				1D0222A221BB98670001A139 /* Main.storyboard */,
 				1D0222A521BB98690001A139 /* Assets.xcassets */,
-				1D0222A721BB98690001A139 /* LaunchScreen.storyboard */,
 				1D0222AA21BB98690001A139 /* Info.plist */,
 			);
 			path = finalproj;
@@ -103,6 +136,59 @@
 				1D0222B521BB986A0001A139 /* Info.plist */,
 			);
 			path = finalprojTests;
+			sourceTree = "<group>";
+		};
+		26759A9921C34FB1003E3623 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				26759A9A21C34FB1003E3623 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 */,
+				26759A9B21C34FB1003E3623 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 */,
+				26759A9C21C34FB1003E3623 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 */,
+				26759A9D21C34FB1003E3623 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		26B8D63621C3B51300797618 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26CA8F6121BFD50A0055D7E6 /* TDEModelFEMALE.swift */,
+				26CA8F5B21BF86AC0055D7E6 /* SelectedButton.swift */,
+				26CA8F5F21BFBB900055D7E6 /* TDEEModelMALE.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26B8D63721C3B57E00797618 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26B8D64021C3B73400797618 /* Music.storyboard */,
+				26B8D63E21C3B70500797618 /* Journal.storyboard */,
+				26B8D63921C3B68700797618 /* Tracker.storyboard */,
+				1D0222A221BB98670001A139 /* Main.storyboard */,
+				1D0222A721BB98690001A139 /* LaunchScreen.storyboard */,
+				2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26B8D63821C3B5DE00797618 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D02229E21BB98670001A139 /* Tracker.swift */,
+				1D0222BE21BB9C6E0001A139 /* MusicPlayer.swift */,
+				26D862C921C34A10009C92A6 /* Music.swift */,
+				1D0222C021BB9C9F0001A139 /* JournalViewController.swift */,
+				26E70DB921C354A900B7A500 /* DetailJournalViewController.swift */,
+				26E70DBB21C354E100B7A500 /* EditJournalViewController.swift */,
+				26E70DBD21C3551900B7A500 /* NewJournalViewController.swift */,
+				26B281EB21C0F26800B4CE2F /* WelcomeCalculator.swift */,
+				26CA8F5D21BF98390055D7E6 /* resultsCalculator.swift */,
+				26121E1F21C202E00064A3BC /* websiteViewController.swift */,
+				1D0222A021BB98670001A139 /* Calculator.swift */,
+				1D02229C21BB98670001A139 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +272,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26759A9E21C34FB1003E3623 /* The Chainsmokers - Waterbed ft. Waterbed (Audio).mp3 in Resources */,
 				1D0222A921BB98690001A139 /* LaunchScreen.storyboard in Resources */,
+				26759AA021C34FB1003E3623 /* The Chainsmokers - Inside Out ft. Charlee (Audio).mp3 in Resources */,
+				26759A9F21C34FB1003E3623 /* Maroon 5 - Girls Like You (Lyrics) ft. Cardi B.mp3 in Resources */,
+				26B8D63F21C3B70500797618 /* Journal.storyboard in Resources */,
+				26759AA121C34FB1003E3623 /* Benny Blanco, Halsey & Khalid - Eastside (Lyrics).mp3 in Resources */,
+				26B8D63A21C3B68700797618 /* Tracker.storyboard in Resources */,
 				1D0222A621BB98690001A139 /* Assets.xcassets in Resources */,
+				2676CBC521BD1E6A004B33C7 /* Calculator.storyboard in Resources */,
 				1D0222A421BB98670001A139 /* Main.storyboard in Resources */,
+				26B8D64221C3B73400797618 /* Music.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,11 +300,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E70DBA21C354A900B7A500 /* DetailJournalViewController.swift in Sources */,
+				26E70DBE21C3551900B7A500 /* NewJournalViewController.swift in Sources */,
+				26B281EC21C0F26800B4CE2F /* WelcomeCalculator.swift in Sources */,
+				26E70DBC21C354E100B7A500 /* EditJournalViewController.swift in Sources */,
+				26D862CA21C34A10009C92A6 /* Music.swift in Sources */,
+				26CA8F5E21BF98390055D7E6 /* resultsCalculator.swift in Sources */,
+				26CA8F6221BFD50A0055D7E6 /* TDEModelFEMALE.swift in Sources */,
 				1D0222A121BB98670001A139 /* Calculator.swift in Sources */,
-				1D0222C121BB9C9F0001A139 /* Journal.swift in Sources */,
+				1D0222C121BB9C9F0001A139 /* JournalViewController.swift in Sources */,
 				1D02229D21BB98670001A139 /* AppDelegate.swift in Sources */,
 				1D02229F21BB98670001A139 /* Tracker.swift in Sources */,
-				1D0222BF21BB9C6E0001A139 /* Music.swift in Sources */,
+				26121E2021C202E00064A3BC /* websiteViewController.swift in Sources */,
+				26CA8F6021BFBB900055D7E6 /* TDEEModelMALE.swift in Sources */,
+				26CA8F5C21BF86AC0055D7E6 /* SelectedButton.swift in Sources */,
+				1D0222BF21BB9C6E0001A139 /* MusicPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +351,22 @@
 				1D0222A821BB98690001A139 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2676CBC321BD1E6A004B33C7 /* Calculator.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2676CBC421BD1E6A004B33C7 /* Base */,
+			);
+			name = Calculator.storyboard;
+			sourceTree = "<group>";
+		};
+		26B8D64021C3B73400797618 /* Music.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B8D64121C3B73400797618 /* Base */,
+			);
+			name = Music.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -382,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasminechen.finalproj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -400,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasminechen.finalproj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
