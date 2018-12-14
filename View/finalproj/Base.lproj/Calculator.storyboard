@@ -704,6 +704,11 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="1Og-Jl-ME6">
+                                <rect key="frame" x="169" y="402" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.0" green="0.80567890409999998" blue="0.79175001379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -720,6 +725,7 @@
                     <tabBarItem key="tabBarItem" title="Calculator" image="calculator" id="cHi-eZ-aFB"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="activity" destination="1Og-Jl-ME6" id="CL3-Q2-7DX"/>
                         <outlet property="web" destination="vYj-p4-fjw" id="5TM-nM-ef7"/>
                     </connections>
                 </viewController>
