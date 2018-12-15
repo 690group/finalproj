@@ -12,17 +12,29 @@ Proposal:
 We shall create an IOS Application that helps all users anywhere in their fitness journey. There shall be multiple features. These features shall motivate the user to continue their journey. The application shall provide a simple user interface.
 
 Brainstorming:
+
 Input weight
+
 Log for workout
+
 Macronutrient calculator
+
 Pedometer
+
 Calendar
+
 Meal tracker
+
 Weight tracking
+
 Daily calorie intake
+
 Image gallery (before and after)
+
 Suggest nutritional healthy meals
+
 Inspirational quotes
+
 BMI?
 
 Use Cases:
