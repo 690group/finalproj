@@ -1,4 +1,4 @@
-##690 Final Project
+## 690 Final Project
 
 MyFitnessFriend App
 
@@ -8,10 +8,10 @@ Milestone 1 & Milestone 2
 Built on: XCode 10.1
 To be Ran on: iPhone Xs 12.1 Simulator**			
 						
-**Proposal: 
+**Proposal:**
 We shall create an IOS Application that helps all users anywhere in their fitness journey. There shall be multiple features. These features shall motivate the user to continue their journey. The application shall provide a simple user interface.
 
-**Brainstorming:
+**Brainstorming:**
 - Input weight
 - Log for workout
 - Macronutrient calculator
@@ -25,7 +25,7 @@ We shall create an IOS Application that helps all users anywhere in their fitnes
 - Inspirational quotes
 - BMI?
 
-###Use Cases:
+### Use Cases:
 
 **Use Case 1:**
 Russelle has just started a fitness journey and wants to track his running. He loves to listen to music while running. Every day he writes down his workouts in a journal. He does not know much about nutrition and would like to learn more. He downloads our app and has all of these features at his hand. His fitness journey has been simplified. He can run with his phone open to the application, be able to track his run, listen to music and log his workout in the journal after. He can even calculate out his macronutrients and his caloric intake to help plan out his meals.
@@ -48,7 +48,7 @@ Stephanie loves tracking her workouts but she always forgets her tracking watch 
 - music player have a stopwatch encorporated 
 
 Assignment of Features:
--[x]Calculator- Assigned to Stephanie (should take around ~6-10 hours)
--[x]Tracker- Assigned to Anthony (should take around ~6-10 hours)
--[x]Music Player- Assigned to Russelle (should take around ~6-10 hours)
--[x]Journal- Assigned to Jasmine (should take around ~6-10 hours)
+- [x] Calculator- Assigned to Stephanie (should take around ~6-10 hours)
+- [x] Tracker- Assigned to Anthony (should take around ~6-10 hours)
+- [x] Music Player- Assigned to Russelle (should take around ~6-10 hours)
+- [x] Journal- Assigned to Jasmine (should take around ~6-10 hours)
