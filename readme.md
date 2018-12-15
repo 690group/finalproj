@@ -10,7 +10,7 @@ Milestone 1 & Milestone 2
 
 **To be Ran on: iPhone Xs 12.1 Simulator**			
 
-**Team Members**
+**Team Members**  
 -Wen Ying Chen  
 -Anthony Owyeong  
 -Russelle Pineda  
