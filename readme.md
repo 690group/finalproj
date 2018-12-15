@@ -4,11 +4,11 @@ MyFitnessFriend App
 
 Milestone 1 & Milestone 2
 
-### Application: MyFitnessFriend
-### Built on: XCode 10.1
-### To be Ran on: iPhone Xs 12.1 Simulator			
+###### Application: MyFitnessFriend
+###### Built on: XCode 10.1
+###### To be Ran on: iPhone Xs 12.1 Simulator			
 						
-### Proposal:
+###### Proposal:
 We shall create an IOS Application that helps all users anywhere in their fitness journey. There shall be multiple features. These features shall motivate the user to continue their journey. The application shall provide a simple user interface.
 
 **Brainstorming:**
@@ -25,12 +25,12 @@ We shall create an IOS Application that helps all users anywhere in their fitnes
 - Inspirational quotes
 - BMI?
 
-### Use Cases:
+###### Use Cases:
 
-### Use Case 1:
+###### Use Case 1:
 Russelle has just started a fitness journey and wants to track his running. He loves to listen to music while running. Every day he writes down his workouts in a journal. He does not know much about nutrition and would like to learn more. He downloads our app and has all of these features at his hand. His fitness journey has been simplified. He can run with his phone open to the application, be able to track his run, listen to music and log his workout in the journal after. He can even calculate out his macronutrients and his caloric intake to help plan out his meals.
 
-### Use Case 2:
+###### Use Case 2:
 Stephanie loves tracking her workouts but she always forgets her tracking watch or its always dead. She feels discouraged when she doesn’t log her workouts so she sometimes misses the gym if she can’t track it. She loves listening to music and always has her phone. She has been wanting to get a journal for logging her workout plans and track the amount of weight and reps she does per exercise. Stephanie is stubborn and does not want to carry around a journal so she holds back. She loves to meap prep but she is constantly switching between macro calculators since some do not calculate low and high carb/fat days. She downloads the app and she has everything she needs all in one. She can now log her workouts, not use the excuse of not having her tracking watch as her excuse to get out of working out, and she can correctly plan out her meals. 
 
 
