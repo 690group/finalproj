@@ -9,7 +9,12 @@ Milestone 1 & Milestone 2
 **Built on: XCode 10.1**
 
 **To be Ran on: iPhone Xs 12.1 Simulator**			
-						
+
+**Team Members**
+Wen Ying Chen
+Anthony Owyeong
+Russelle Pineda
+Stephanie Santana
 **Proposal:**
 
 We shall create an IOS Application that helps all users anywhere in their fitness journey. There shall be multiple features. These features shall motivate the user to continue their journey. The application shall provide a simple user interface.
