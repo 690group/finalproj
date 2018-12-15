@@ -1,10 +1,35 @@
 import UIKit
 
-class Calculator: UIViewController {
+class Calculator: UIViewController{
     
+
     @IBOutlet weak var age: UITextField!
     
     @IBOutlet weak var weight: UITextField!
+    
+    //be able to get out of keyboard
+    @IBAction func returnFromAge(_ sender: UITextField) {
+        view.endEditing(true)
+
+    }
+    
+    //be able to get out of keyboard
+    @IBAction func returnFromWeight(_ sender: UITextField) {
+        view.endEditing(true)
+
+    }
+    
+    //be able to get out of keyboard
+    @IBAction func returnFromFeet(_ sender: UITextField) {
+        view.endEditing(true)
+
+    }
+    
+    //be able to get out of keyboard
+    @IBAction func returnFromInches(_ sender: UITextField) {
+        view.endEditing(true)
+
+    }
     
     var gender = ""
     var activityLevel = 0.0
@@ -114,14 +139,13 @@ class Calculator: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         //give rounded button effect
         calculateButton.layer.cornerRadius = calculateButton.frame.size.height/3
         
          self.formBackground.image = UIImage(named: "graybackground")
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
     
 }
 

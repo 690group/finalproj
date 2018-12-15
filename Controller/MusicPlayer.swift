@@ -17,6 +17,7 @@ class MusicPlayer: UIViewController {
     //image view label
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var background: UIImageView!
     
     @IBAction func playButton(_ sender: UIButton) {
         
