@@ -11,7 +11,7 @@ Milestone 1 & Milestone 2
 **To be Ran on: iPhone Xs 12.1 Simulator**			
 
 **Team Members**  
--Wen Ying Chen  
+-Wenying Chen  
 -Anthony Owyeong  
 -Russelle Pineda  
 -Stephanie Santana  
@@ -62,4 +62,4 @@ Stephanie loves tracking her workouts but she always forgets her tracking watch 
 - [x] Calculator- Assigned to Stephanie (should take around ~6-10 hours)
 - [x] Tracker- Assigned to Anthony (should take around ~6-10 hours)
 - [x] Music Player- Assigned to Russelle (should take around ~6-10 hours)
-- [x] Journal- Assigned to Jasmine (should take around ~6-10 hours)
+- [x] Journal- Assigned to Wenying (should take around ~6-10 hours)
